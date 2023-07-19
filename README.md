@@ -6,13 +6,16 @@ _Check out [Dump7](https://github.com/Ghostff/Dump7) for PHP 7+_
 # Installation   
 You can download the  Latest [release version ](https://github.com/Ghostff/pretty_data_dump/releases/) as a standalone, alternatively you can use [Composer](https://getcomposer.org/) 
 ```json
-$ composer require ghostff/dump5
+$ composer require mrinte/dump5
 ```
 ```json
 "require": {
-    "ghostff/dump5": "^1.0"
+    "mrinte/dump5": "^1.0"
 }
 ```    
+# 使用方法
+Dump(对象/数组);
+
 # Display Flags
 You can simple hide or show some object attribute using a Doc block flag:
 
